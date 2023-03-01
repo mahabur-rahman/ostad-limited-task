@@ -9,6 +9,7 @@ import Work from "../../components/Works/Works";
 import Resource from "../../components/Resource/Resource";
 import Community from "../../components/Community/Community";
 import Industry from "../../components/Industry/Industry";
+import TrastCompany from "../../components/TrustCompany/TrastCompany";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Resource />
       <Community />
       <Industry />
+      <TrastCompany />
     </>
   );
 };

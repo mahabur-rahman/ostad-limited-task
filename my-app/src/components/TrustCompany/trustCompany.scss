@@ -1,0 +1,19 @@
+#trustCompany {
+  overflow: hidden;
+  background: #101828;
+  border-radius: 4px;
+  padding-top: 2.2rem;
+  padding-bottom: 1.5rem;
+
+  .com_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
