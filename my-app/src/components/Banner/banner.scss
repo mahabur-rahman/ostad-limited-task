@@ -1,0 +1,69 @@
+#banner {
+  overflow: hidden;
+  background: linear-gradient(
+      rgb(244, 254, 255, 0.5) 100%,
+      rgb(244, 254, 255, 0.5) 100%
+    ),
+    url("../../images/banner.jpg") no-repeat center right / cover;
+  padding: 2rem 0;
+
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #101828;
+  }
+
+  .para {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1d2939;
+
+    width: 584px;
+  }
+
+  .btn_text {
+    font-size: 12px;
+  }
+
+  .banner_btn {
+    .live_btn {
+      background: #e9efff;
+      border-radius: 4px;
+      color: #101828;
+      padding: 4px 8px;
+      outline: none;
+      border: 1px solid #e9efff;
+    }
+  }
+  button.start_btn.btn.btn-primary {
+    background: #101828;
+    border-radius: 8px;
+    width: 188px;
+    height: 48px;
+    border: 1px solid #101828;
+  }
+
+  .start_btn_two {
+    background: #f9f9fa;
+    border-radius: 8px;
+    width: 188px;
+    height: 48px;
+    border: 1px solid #000;
+    margin-left: 1rem !important;
+  }
+
+  .link_text_Two {
+    letter-spacing: 0.1px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .link_text {
+    letter-spacing: 0.1px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,89 @@
+#liveCourse {
+  overflow: hidden;
+  padding: 2.5rem 0;
+
+  .container {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .course_title {
+    color: #101828;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .batch_btn {
+    background: #101828;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #101828;
+  }
+
+  .sit_btn {
+    background: #475467;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #eaecf0;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #475467;
+  }
+
+  .main_title {
+    color: #101828;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .b_rate {
+    color: #ff8c4b;
+    text-decoration-line: line-through;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .main_rate {
+    color: #1d2939;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .card_btn {
+    background: #eaecf0;
+    border-radius: 6px;
+    border: 1px solid #eaecf0;
+
+    padding: 8px 24px;
+  }
+
+  .btn_text {
+    color: #101828;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .arrow {
+    color: #101828;
+  }
+
+  .top_btn {
+    background: #1d2939;
+  }
+
+  .cart_footer {
+    background: #f9f9fa;
+    padding: 1rem;
+  }
+}

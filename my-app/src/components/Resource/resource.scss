@@ -1,0 +1,106 @@
+#resource {
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background-color: #fff;
+  position: relative;
+
+  .card {
+    background-color: #ffffff;
+  }
+
+  .yt_play_btn {
+    position: absolute;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    top: 13%;
+    left: 35%;
+    cursor: pointer;
+  }
+
+  .course_title {
+    color: #101828;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .batch_btn {
+    background: #101828;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #101828;
+  }
+
+  .sit_btn {
+    background: #475467;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #eaecf0;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #475467;
+  }
+
+  .main_title {
+    color: #050400;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .b_rate {
+    color: #ff8c4b;
+    text-decoration-line: line-through;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .main_rate {
+    color: #1d2939;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .card_btn {
+    background: #eaecf0;
+    border-radius: 6px;
+    border: 1px solid #eaecf0;
+
+    padding: 8px 24px;
+  }
+
+  .btn_text {
+    color: #101828;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .arrow {
+    color: #101828;
+  }
+
+  .top_btn {
+    background: #1d2939;
+  }
+
+  .video_img {
+    object-fit: cover;
+  }
+  .label {
+    color: #475467;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 1rem;
+  }
+
+  .card_label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #475467;
+  }
+}

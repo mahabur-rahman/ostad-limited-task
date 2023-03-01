@@ -1,0 +1,31 @@
+#industry {
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background-color: #fff;
+
+  position: inherit;
+
+  .card-body {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .design {
+    color: #d0d5dd;
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
