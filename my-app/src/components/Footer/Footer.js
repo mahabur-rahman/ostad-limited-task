@@ -10,20 +10,26 @@ import tiktok from "../../images/tiktok.png";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <Container>
         <Row>
           <Col xl={3}>
             <div className="img">
-              <Image src={playStore} alt="playStore" />
-              <p>কমিউনিটি -এর সাথে কানেক্টেড থাকতে</p>
+              <Image
+                src={playStore}
+                alt="playStore"
+                className="img-fluid play_store"
+              />
+              <p className="footer_text mt-5 mb-2">
+                কমিউনিটি -এর সাথে কানেক্টেড থাকতে
+              </p>
               <div className="social_link d-flex align-items-center">
                 <Nav.Link hre="#">
                   <Image src={fbs} alt="fb" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
-                  <Image src={ins} alt="instagram" />
+                  <Image src={ins} alt="instagram" className="mx-3" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
@@ -31,7 +37,7 @@ const Footer = () => {
                 </Nav.Link>
 
                 <Nav.Link hre="#">
-                  <Image src={lnk} alt="Linkedin" />
+                  <Image src={lnk} alt="Linkedin" className="mx-3" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
@@ -43,21 +49,27 @@ const Footer = () => {
           <Col xl={3}>
             <div className="join_text">
               <div>
-                <Nav.Link hre="#">জয়েন করুন এক্সপার্টদের টিমে</Nav.Link>
+                <Nav.Link hre="#" className="footer_text mb-3">
+                  জয়েন করুন এক্সপার্টদের টিমে
+                </Nav.Link>
               </div>
               <div>
-                <Nav.Link hre="#">ব্লগ</Nav.Link>
+                <Nav.Link hre="#" className="footer_text">
+                  ব্লগ
+                </Nav.Link>
               </div>
             </div>
           </Col>
           <Col xl={3}>
-            <p>
-              Ka-6/a, Navana Sylvania, Baridhara Road, Nadda, <br /> Gulshan-2,
-              Dhaka-1212
+            <p className="footer_text mb-0">
+                Baridhara Road, Nadda,
             </p>
+            <p>Gulshan-2, Dhaka-1212</p>
           </Col>
           <Col xl={3}>
-            <Nav.Link hre="#">Terms & Conditions</Nav.Link>
+            <Nav.Link hre="#" className="footer_text">
+              Terms & Conditions
+            </Nav.Link>
           </Col>
         </Row>
       </Container>
