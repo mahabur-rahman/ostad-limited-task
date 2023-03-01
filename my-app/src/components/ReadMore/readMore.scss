@@ -1,0 +1,26 @@
+#readMore {
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background-color: #fff;
+
+  .label {
+    color: #475467;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+
+  .main_title {
+    color: #1d2939;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -0.5rem;
+  }
+
+  .subTitle {
+    color: #475467;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}

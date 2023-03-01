@@ -17,6 +17,9 @@ import misfit from "../images/misfit.jpg";
 // carr img
 import carrImg from "../images/app_design.png";
 
+// readMore img
+import readMoreImg from "../images/readMore.png";
+
 // guide
 export const guideData = [
   {
@@ -288,5 +291,36 @@ export const industry = [
     designation: `Country HR Manager, Amann Group`,
     waltonImg: walton,
     misfitImg: misfit,
+  },
+];
+
+// readMore
+
+export const readMore = [
+  {
+    id: 1,
+    imgSrc: readMoreImg,
+    date: `March 3, 2022  `,
+    text: `5 min read`,
+    title: `IELTS Reading Test`,
+    subTitle: `IELTS Reading`,
+  },
+
+  {
+    id: 2,
+    imgSrc: readMoreImg,
+    date: `March 4, 2022  `,
+    text: `5 min read`,
+    title: `IELTS Reading Test`,
+    subTitle: `IELTS Reading`,
+  },
+
+  {
+    id: 3,
+    imgSrc: readMoreImg,
+    date: `March 5, 2022  `,
+    text: `15 min read`,
+    title: `IELTS Reading Test 2`,
+    subTitle: `IELTS Reading`,
   },
 ];

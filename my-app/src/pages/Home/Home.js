@@ -10,6 +10,8 @@ import Resource from "../../components/Resource/Resource";
 import Community from "../../components/Community/Community";
 import Industry from "../../components/Industry/Industry";
 import TrastCompany from "../../components/TrustCompany/TrastCompany";
+import ReadMore from "../../components/ReadMore/ReadMore";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +26,8 @@ const Home = () => {
       <Community />
       <Industry />
       <TrastCompany />
+      <ReadMore />
+      <Footer />
     </>
   );
 };
