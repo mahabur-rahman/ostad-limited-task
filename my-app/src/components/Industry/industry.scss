@@ -42,6 +42,12 @@
     -o-border-radius: 15px;
   }
 
+  .course_title {
+    color: #101828;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
   .name {
     color: #ffffff;
     font-weight: 600;
@@ -54,13 +60,16 @@
     font-size: 11px;
   }
 
-  img {
-    object-fit: cover;
+  .hr_main {
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+  }
+
+  img {
+    object-fit: cover;
   }
 
   // slick slider

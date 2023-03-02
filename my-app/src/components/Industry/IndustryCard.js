@@ -18,8 +18,8 @@ const IndustryCard = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -27,8 +27,8 @@ const IndustryCard = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -52,7 +52,7 @@ const IndustryCard = () => {
                 <Card.Img
                   variant="top"
                   src={item.imgSrc}
-                  className="img-fluid"
+                  className="img-fluid hr_main"
                 />
 
                 <Card.Body>
