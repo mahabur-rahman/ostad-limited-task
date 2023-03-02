@@ -2,6 +2,7 @@ import "./header.scss";
 import { Container, Nav, Navbar, Image, NavDropdown } from "react-bootstrap";
 import logo from "../../images/logo.png";
 import lang from "../../images/lang.png";
+import bars from "../../images/bars.png";
 
 const Header = () => {
   return (
@@ -12,7 +13,16 @@ const Header = () => {
             <Navbar.Brand href="#home">
               <Image src={logo} alt="Ostad" />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+            {/* res button */}
+            <button href="#" className="res_login_btn">
+              LOGIN
+            </button>
+
+            <Navbar.Toggle aria-controls="responsive-navbar-nav">
+              <Image src={bars} alt="bar" className="bar_icon" />
+            </Navbar.Toggle>
+
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
@@ -28,7 +38,11 @@ const Header = () => {
                   <Image src={lang} alt="lang" />
                   <span className="lang px-2">ENGLISH</span>
                 </Nav.Link>
-                <Nav.Link eventKey={2} href="#" className="login_btn">
+                <Nav.Link
+                  eventKey={2}
+                  href="#"
+                  className="login_btn d-none d-lg-block"
+                >
                   LOGIN
                 </Nav.Link>
               </Nav>
