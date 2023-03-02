@@ -12,7 +12,7 @@ const CommunityCard = () => {
     <>
       {data.map((item) => {
         return (
-          <Col xl={6} key={item.id} className="my-3">
+          <Col xl={6} lg={6} md={12} key={item.id} className="my-3">
             <Row className="row_bg">
               <Col xl={5}>
                 <Card.Img
@@ -22,7 +22,7 @@ const CommunityCard = () => {
                 />
               </Col>
 
-              <Col xl={7}>
+              <Col xl={7} lg={6} md={12}>
                 <Card>
                   <Card.Body>
                     <Button className="member_btn mb-1">

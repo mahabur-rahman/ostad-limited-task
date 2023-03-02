@@ -12,6 +12,10 @@
     -o-border-radius: 10px;
   }
 
+  .card {
+    position: relative;
+  }
+
   .course_title {
     color: #101828;
     font-weight: 700;
@@ -31,7 +35,7 @@
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
-    
+
     // hover
     &:hover {
       background: #1a2742;
@@ -39,6 +43,8 @@
   }
 
   .sit_btn {
+    display: flex;
+    align-items: center;
     background: #475467;
     border-radius: 4px;
     padding: 4px 8px;
@@ -109,10 +115,85 @@
 
   .top_btn {
     background: #1d2939;
+    display: flex;
   }
 
   .cart_footer {
     background: #f9f9fa;
     padding: 1rem;
+  }
+
+  .course_btn {
+    color: #ffffff;
+    background: #ff8c4b;
+  }
+}
+
+// responsive start
+@media (max-width: 575px) {
+  #liveCourse .course_btn {
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 2%;
+    border: 1px solid #ff8c4b;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    // hover
+    &:hover {
+      background: #e7864e;
+      border: 1px solid #e7864e;
+    }
+  }
+
+  #liveCourse .batch_btn {
+    background: #12b76a;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    border: 1px solid #12b76a;
+    padding: 8px 12px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    // hover
+    &:hover {
+      background: #369e6d;
+      border: 1px solid #369e6d;
+    }
+  }
+  #liveCourse .sit_btn {
+    background: #fff6d9;
+    color: #101828;
+    border: 1px solid #fff6d9;
+
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    // hover
+    &:hover {
+      background: #c7b67d;
+    }
+  }
+  #liveCourse .cart_footer {
+    background: #fff6d9;
+  }
+  #liveCourse .top_btn {
+    background: #fff;
+  }
+
+  #liveCourse .card_btn {
+    background: #fffbee;
+    border: 1px solid #ffd659;
   }
 }

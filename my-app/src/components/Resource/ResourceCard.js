@@ -28,8 +28,8 @@ const ResourceCard = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -37,8 +37,8 @@ const ResourceCard = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -66,7 +66,10 @@ const ResourceCard = () => {
                     href={video}
                     className="play_btn yt_play_btn"
                   >
-                    <FaPlay style={{ color: "#FFC000" }} className="play_icon" />
+                    <FaPlay
+                      style={{ color: "#FFC000" }}
+                      className="play_icon"
+                    />
                   </a>
                 </Fancybox>
 
