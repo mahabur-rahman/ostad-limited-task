@@ -17,6 +17,11 @@
     border: 1px solid #475467;
   }
 
+  .pencil {
+    object-fit: cover;
+    margin-top: 0.1rem;
+  }
+
   .label {
     color: #475467;
     font-weight: 500;
@@ -36,6 +41,12 @@
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
+  }
+
+  .course_title {
+    color: #101828;
+    font-weight: 700;
+    font-size: 22px;
   }
 
   // slick slider
