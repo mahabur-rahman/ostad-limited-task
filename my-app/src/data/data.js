@@ -385,4 +385,28 @@ export const readMore = [
     title: `IELTS Reading Test 2`,
     subTitle: `IELTS Reading`,
   },
+  {
+    id: 4,
+    imgSrc: readMoreImg,
+    date: `March 5, 2022  `,
+    text: `15 min read`,
+    title: `IELTS Reading Test 2`,
+    subTitle: `IELTS Reading`,
+  },
+  {
+    id: 5,
+    imgSrc: readMoreImg,
+    date: `March 5, 2022  `,
+    text: `15 min read`,
+    title: `IELTS Reading Test 2`,
+    subTitle: `IELTS Reading`,
+  },
+  {
+    id: 6,
+    imgSrc: readMoreImg,
+    date: `March 5, 2022  `,
+    text: `15 min read`,
+    title: `IELTS Reading Test 2`,
+    subTitle: `IELTS Reading`,
+  },
 ];
