@@ -1,8 +1,13 @@
 #industry {
   overflow: hidden;
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 8rem;
   background-color: #fff;
   position: inherit;
+
+  .card {
+    margin: 0 1rem;
+  }
 
   .card-body {
     position: absolute;
@@ -35,5 +40,30 @@
 
   img {
     object-fit: cover;
+  }
+
+  // slick slider
+
+  .slick-next:before,
+  .slick-prev:before {
+    color: #ffab00;
+    font-size: 30px;
+  }
+
+  .slick-prev {
+    left: -34px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 8px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffab00;
+    font-size: 12px;
+  }
+  .slick-slider .slick-list,
+  .slick-slider .slick-track {
+    margin-bottom: 0.5rem;
   }
 }

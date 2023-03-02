@@ -38,4 +38,19 @@
     font-weight: 500;
     font-size: 12px;
   }
+
+  .card {
+    margin: 0 1rem;
+  }
+}
+// slide slider
+
+.slick-next:before,
+.slick-prev:before {
+  color: #fffbee;
+  font-size: 30px;
+}
+
+.slick-prev {
+  left: -34px;
 }

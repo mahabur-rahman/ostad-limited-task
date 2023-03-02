@@ -58,6 +58,62 @@ export const guideData = [
     subTitle: "Instructor name",
     designation: "Expertise field name",
   },
+
+  {
+    id: 5,
+    imgSrc: carrier,
+    btn: <FaRegPlayCircle />,
+    userImg: user,
+    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
+    subTitle: "Instructor name",
+    designation: "Expertise field name",
+  },
+
+  {
+    id: 6,
+    imgSrc: carrier,
+    btn: <FaRegPlayCircle />,
+    userImg: user,
+    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
+    subTitle: "Instructor name",
+    designation: "Expertise field name",
+  },
+  {
+    id: 7,
+    imgSrc: carrier,
+    btn: <FaRegPlayCircle />,
+    userImg: user,
+    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
+    subTitle: "Instructor name",
+    designation: "Expertise field name",
+  },
+  {
+    id: 8,
+    imgSrc: carrier,
+    btn: <FaRegPlayCircle />,
+    userImg: user,
+    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
+    subTitle: "Instructor name",
+    designation: "Expertise field name",
+  },
+  {
+    id: 9,
+    imgSrc: carrier,
+    btn: <FaRegPlayCircle />,
+    userImg: user,
+    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
+    subTitle: "Instructor name",
+    designation: "Expertise field name",
+  },
+  {
+    id: 10,
+    imgSrc: carrier,
+    btn: <FaRegPlayCircle />,
+    userImg: user,
+    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
+    subTitle: "Instructor name",
+    designation: "Expertise field name",
+  },
 ];
 
 // live course
@@ -218,6 +274,32 @@ export const resourceData = [
     mainRate: `2000 TK`,
     text: `বিস্তারিত দেখি`,
   },
+
+  {
+    id: 5,
+    img: resImg,
+    title: `IELTS Listening: 15 Days`,
+    subTitle: `Challenge`,
+    sit: `ব্যাচ ২৬`,
+    emptySit: `২০ টি সিট বাকি`,
+    day: `৫ দিন বাকি`,
+    beforRate: `3000 TK`,
+    mainRate: `2000 TK`,
+    text: `বিস্তারিত দেখি`,
+  },
+
+  {
+    id: 6,
+    img: resImg,
+    title: `IELTS Listening: 15 Days`,
+    subTitle: `Challenge`,
+    sit: `ব্যাচ ২৬`,
+    emptySit: `২০ টি সিট বাকি`,
+    day: `৫ দিন বাকি`,
+    beforRate: `3000 TK`,
+    mainRate: `2000 TK`,
+    text: `বিস্তারিত দেখি`,
+  },
 ];
 
 // community
@@ -286,6 +368,22 @@ export const industry = [
   },
   {
     id: 4,
+    imgSrc: indUser,
+    name: `Kazi Ahad Islam (Erfan)`,
+    designation: `Country HR Manager, Amann Group`,
+    waltonImg: walton,
+    misfitImg: misfit,
+  },
+  {
+    id: 5,
+    imgSrc: indUser,
+    name: `Kazi Ahad Islam (Erfan)`,
+    designation: `Country HR Manager, Amann Group`,
+    waltonImg: walton,
+    misfitImg: misfit,
+  },
+  {
+    id: 6,
     imgSrc: indUser,
     name: `Kazi Ahad Islam (Erfan)`,
     designation: `Country HR Manager, Amann Group`,
