@@ -27,6 +27,7 @@
 
   .banner_btn {
     .live_btn {
+      font-weight: 500;
       background: #e9efff;
       border-radius: 4px;
       color: #101828;
@@ -99,5 +100,38 @@
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
+  }
+}
+
+// responsive start
+@media (max-width: 767px) {
+  #banner .para {
+    width: 338px;
+  }
+}
+
+@media (max-width: 423px) {
+  #banner button.start_btn.btn.btn-primary {
+    width: 100%;
+  }
+
+  #banner .start_btn_two {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 359px) {
+  #banner {
+    .mx-4 {
+      margin-right: 0 !important;
+    }
+  }
+
+  #banner {
+    button.live_btn.mx-4.btn.btn-primary {
+      margin-left: 0.5rem;
+    }
   }
 }

@@ -42,15 +42,39 @@
   .card {
     margin: 0 1rem;
   }
-}
-// slide slider
+  // slide slider
 
-.slick-next:before,
-.slick-prev:before {
-  color: #fffbee;
-  font-size: 30px;
+  .slick-next:before,
+  .slick-prev:before {
+    color: #fffbee;
+    font-size: 30px;
+  }
+
+  .slick-prev {
+    left: -34px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 8px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffab00;
+    font-size: 12px;
+  }
+  .slick-slider .slick-list,
+  .slick-slider .slick-track {
+    margin-bottom: 1.5rem;
+  }
+
+  .slick-dots li button:before {
+    opacity: 0.8;
+
+    color: #fff;
+  }
 }
 
-.slick-prev {
-  left: -34px;
+// responsive start
+
+@media (max-width: 575px) {
 }

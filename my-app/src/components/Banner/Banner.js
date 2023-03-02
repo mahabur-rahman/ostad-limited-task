@@ -11,7 +11,7 @@ const Banner = () => {
     <section id="banner">
       <Container>
         <Row>
-          <Col xl={6}>
+          <Col xl={6} lg={6}>
             <div className="banner_content">
               <Row>
                 <Col xl={2}>
@@ -19,7 +19,7 @@ const Banner = () => {
                 </Col>
                 <Col xl={9} className="mx-auto">
                   <div className="banner_text">
-                    <h2 className="title">Tech and development</h2>
+                    <h2 className="title mt-3 mt-xl-0">Tech and development</h2>
                     <p className="para my-4">
                       স্কিল ডেভেলপ করুন দেশের সেরা ইন্সট্রাক্টরদের সাথে, ক্লিক
                       করুন নিচের বাটনে। স্কিল ডেভেলপ করুন দেশের সেরা

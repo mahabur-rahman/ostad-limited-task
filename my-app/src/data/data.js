@@ -78,42 +78,6 @@ export const guideData = [
     subTitle: "Instructor name",
     designation: "Expertise field name",
   },
-  {
-    id: 7,
-    imgSrc: carrier,
-    btn: <FaRegPlayCircle />,
-    userImg: user,
-    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
-    subTitle: "Instructor name",
-    designation: "Expertise field name",
-  },
-  {
-    id: 8,
-    imgSrc: carrier,
-    btn: <FaRegPlayCircle />,
-    userImg: user,
-    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
-    subTitle: "Instructor name",
-    designation: "Expertise field name",
-  },
-  {
-    id: 9,
-    imgSrc: carrier,
-    btn: <FaRegPlayCircle />,
-    userImg: user,
-    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
-    subTitle: "Instructor name",
-    designation: "Expertise field name",
-  },
-  {
-    id: 10,
-    imgSrc: carrier,
-    btn: <FaRegPlayCircle />,
-    userImg: user,
-    mainTitle: "ক্যারিয়ার করুন ওয়েব ডিজাইনে",
-    subTitle: "Instructor name",
-    designation: "Expertise field name",
-  },
 ];
 
 // live course
