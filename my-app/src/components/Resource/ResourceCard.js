@@ -6,12 +6,16 @@ import clock from "../../images/clock.png";
 import clk from "../../images/clk.png";
 import video from "../../images/video_play.png";
 import caldender from "../../images/calender.png";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaPlay } from "react-icons/fa";
 // slick
 import Slider from "react-slick";
+// fancy box for popup video
+import Fancybox from "./fancyBox.js";
 
 const ResourceCard = () => {
   const [data, setData] = useState(resourceData);
+
+  const video = "https://www.youtube.com/watch?v=u6BOC7CDUTQ";
 
   const settings = {
     dots: true,
@@ -56,7 +60,15 @@ const ResourceCard = () => {
             <>
               <Card>
                 <Card.Img variant="top" src={item.img} className="img-fluid" />
-                <Image src={video} alt="play" className="yt_play_btn" />
+                <Fancybox>
+                  <a
+                    data-fancybox="gallery"
+                    href={video}
+                    className="play_btn yt_play_btn"
+                  >
+                    <FaPlay style={{ color: "#FFC000" }} className="play_icon" />
+                  </a>
+                </Fancybox>
 
                 <span className="label mt-2">Language Learning</span>
                 <Card.Body>

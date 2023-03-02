@@ -7,6 +7,12 @@
 
   .card {
     margin: 0 1rem;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
   }
 
   .card-body {
@@ -15,6 +21,11 @@
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
   }
 
   .card:hover .card-body {
@@ -24,6 +35,11 @@
     -moz-transition: all ease-in;
     -ms-transition: all ease-in;
     -o-transition: all ease-in;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
   }
 
   .name {
@@ -40,6 +56,11 @@
 
   img {
     object-fit: cover;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
   }
 
   // slick slider
