@@ -25,23 +25,23 @@ const Footer = () => {
               </p>
               <div className="social_link d-flex align-items-center">
                 <Nav.Link hre="#">
-                  <Image src={fbs} alt="fb" />
+                  <Image src={fbs} alt="fb" className="links" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
-                  <Image src={ins} alt="instagram" className="mx-3" />
+                  <Image src={ins} alt="instagram" className="mx-3 links" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
-                  <Image src={yt} alt="Youtube" />
+                  <Image src={yt} alt="Youtube" className="links" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
-                  <Image src={lnk} alt="Linkedin" className="mx-3" />
+                  <Image src={lnk} alt="Linkedin" className="mx-3 links" />
                 </Nav.Link>
 
                 <Nav.Link hre="#">
-                  <Image src={tiktok} alt="tiktok" />
+                  <Image src={tiktok} alt="tiktok" className="links" />
                 </Nav.Link>
               </div>
             </div>
@@ -61,9 +61,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col xl={3}>
-            <p className="footer_text mb-0">
-                Baridhara Road, Nadda,
-            </p>
+            <p className="footer_text mb-0">Baridhara Road, Nadda,</p>
             <p>Gulshan-2, Dhaka-1212</p>
           </Col>
           <Col xl={3}>

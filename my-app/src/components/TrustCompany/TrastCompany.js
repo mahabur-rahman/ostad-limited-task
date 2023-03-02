@@ -13,13 +13,13 @@ const TrastCompany = () => {
         <h5 className="title mb-4">Top companies trust Ostad</h5>
 
         <div className="com_img">
-          <Image src={trust4} alt="img" />
-          <Image src={trust1} alt="img" />
-          <Image src={trust2} alt="img" />
-          <Image src={trust3} alt="img" />
-          <Image src={trust2} alt="img" />
-          <Image src={trust3} alt="img" />
-          <Image src={trust4} alt="img" />
+          <Image src={trust4} alt="img" className="item" />
+          <Image src={trust1} alt="img" className="item" />
+          <Image src={trust2} alt="img" className="item" />
+          <Image src={trust3} alt="img" className="item" />
+          <Image src={trust2} alt="img" className="item" />
+          <Image src={trust3} alt="img" className="item" />
+          <Image src={trust4} alt="img" className="item" />
         </div>
       </div>
     </section>

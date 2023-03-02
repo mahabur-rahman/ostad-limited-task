@@ -15,7 +15,11 @@ const ReadMoreCard = () => {
         return (
           <Col xl={4} key={item.id} className="my-3">
             <Card>
-              <Card.Img variant="top" src={item.imgSrc} className="img-fluid" />
+              <Card.Img
+                variant="top"
+                src={item.imgSrc}
+                className="img-fluid readMore_img"
+              />
 
               <div className="d-flex align-items-center mt-2">
                 <span className="label">{item.date} </span>

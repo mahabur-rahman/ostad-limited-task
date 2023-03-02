@@ -26,6 +26,16 @@
     font-weight: 500;
     font-size: 12px;
     border: 1px solid #101828;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    
+    // hover
+    &:hover {
+      background: #1a2742;
+    }
   }
 
   .sit_btn {
@@ -36,6 +46,16 @@
     font-weight: 500;
     font-size: 12px;
     border: 1px solid #475467;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    // hover
+    &:hover {
+      background: #4b5c75;
+    }
   }
 
   .main_title {
@@ -62,8 +82,17 @@
     background: #eaecf0;
     border-radius: 6px;
     border: 1px solid #eaecf0;
-
     padding: 8px 24px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    // hover
+    &:hover {
+      background: #a2b8e9;
+    }
   }
 
   .btn_text {
