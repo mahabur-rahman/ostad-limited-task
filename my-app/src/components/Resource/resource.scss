@@ -195,6 +195,10 @@
 // responsive start
 
 @media (max-width: 575px) {
+  #resource {
+    background-color: #fff1e9;
+  }
+
   #resource .slick-next:before,
   #resource .slick-prev:before {
     display: none;
