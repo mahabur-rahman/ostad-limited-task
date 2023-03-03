@@ -26,7 +26,7 @@ const CommunityCard = () => {
                 <Card>
                   <Card.Body>
                     <Button className="member_btn mb-1">
-                      <Image src={cUser} />
+                      <Image src={cUser} alt="user" />
                       <span className="member mx-1">{item.userNumbers}</span>
                     </Button>
                     <h5 className="main_title mt-2">{item.members}</h5>
