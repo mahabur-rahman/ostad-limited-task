@@ -161,7 +161,7 @@ export const liveCourse = [
 export const worksData = [
   {
     id: 1,
-    img: carrImg,
+    img: c2,
     title: `SolidWorks with Keyshot`,
     sit: `ব্যাচ ২৬`,
     emptySit: `২০ টি সিট বাকি`,
@@ -169,21 +169,23 @@ export const worksData = [
     beforRate: `3000 TK`,
     mainRate: `2000 TK`,
     text: `বিস্তারিত দেখি`,
+    btnLabel: `জনপ্রিয় কোর্স`,
   },
   {
     id: 2,
-    img: carrImg,
+    img: c1,
     title: `SolidWorks with Keyshot`,
     sit: `ব্যাচ ২৬`,
     emptySit: `২০ টি সিট বাকি`,
     day: `৫ দিন বাকি`,
-    beforRate: `3000 TK`,
-    mainRate: `2000 TK`,
+    beforRate: `4000 TK`,
+    mainRate: `2500 TK`,
     text: `বিস্তারিত দেখি`,
+    btnLabel: `জনপ্রিয় কোর্স`,
   },
   {
     id: 3,
-    img: carrImg,
+    img: liveCourseImg,
     title: `SolidWorks with Keyshot`,
     sit: `ব্যাচ ২৬`,
     emptySit: `২০ টি সিট বাকি`,
@@ -191,6 +193,7 @@ export const worksData = [
     beforRate: `3000 TK`,
     mainRate: `2000 TK`,
     text: `বিস্তারিত দেখি`,
+    btnLabel: `জনপ্রিয় কোর্স`,
   },
 ];
 

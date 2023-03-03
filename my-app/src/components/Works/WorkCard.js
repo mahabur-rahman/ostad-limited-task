@@ -4,8 +4,10 @@ import { worksData } from "../../data/data";
 import sitImg from "../../images/sitImg.png";
 import clock from "../../images/clock.png";
 import { FaArrowRight } from "react-icons/fa";
+import blackClock from "../../images/black_clock.png";
+import blackMan from "../../images/black_man.png";
 
-const WorkCard = () => {
+const GuideCard = () => {
   const [data, setData] = useState(worksData);
 
   return (
@@ -17,12 +19,29 @@ const WorkCard = () => {
               <Card.Img variant="top" src={item.img} className="img-fluid" />
               <div className="top_btn py-2">
                 <Button className="batch_btn">{item.sit}</Button>
+                <Button className="course_btn d-sm-none">
+                  {item.btnLabel}
+                </Button>
                 <Button className="sit_btn mx-2">
-                  <Image src={sitImg} alt="sit" className="mx-1" />
+                  <Image
+                    src={sitImg}
+                    alt="sit"
+                    className="mx-1 d-none d-sm-block"
+                  />
+                  <Image src={blackMan} alt="sit" className="mx-1 d-sm-none" />
                   <span> {item.emptySit}</span>
                 </Button>
                 <Button className="sit_btn">
-                  <Image src={clock} alt="clock" className="mx-1" />
+                  <Image
+                    src={clock}
+                    alt="clock"
+                    className="mx-1 d-none d-sm-block"
+                  />
+                  <Image
+                    src={blackClock}
+                    alt="clock"
+                    className="mx-1 d-sm-none"
+                  />
                   {item.day}
                 </Button>
               </div>
@@ -31,8 +50,8 @@ const WorkCard = () => {
 
                 <div className="cart_footer d-flex align-items-center justify-content-between">
                   <div className="rate">
-                    <div className="b_rate">3000 TK</div>
-                    <div className="main_rate">2000 TK</div>
+                    <div className="b_rate">{item.beforRate}</div>
+                    <div className="main_rate">{item.mainRate}</div>
                   </div>
                   <div className="btn_desc">
                     <Button className="card_btn">
@@ -52,4 +71,4 @@ const WorkCard = () => {
   );
 };
 
-export default WorkCard;
+export default GuideCard;

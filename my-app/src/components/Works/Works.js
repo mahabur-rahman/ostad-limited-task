@@ -6,7 +6,7 @@ import WorkCard from "./WorkCard";
 
 const Work = () => {
   return (
-    <section id="Work">
+    <section id="work">
       <Container>
         <div className="main_title d-flex align-align-items-center mb-3 pb-1">
           <Image src={animated} alt="sound" />
